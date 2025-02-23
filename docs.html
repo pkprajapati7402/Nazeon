@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Hyper.js Configuration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            background: #0d0d0d;
+            color: #0ff;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #0ff;
+            box-shadow: 0 0 15px #0ff;
+            transition: 0.3s ease-in-out;
+        }
+
+        h2 {
+            color: #ff0;
+            text-shadow: 0 0 5px #ff0, 0 0 10px #ff0;
+        }
+
+        .step {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background: rgba(0, 255, 255, 0.1);
+            border-left: 5px solid #0ff;
+            box-shadow: 0 0 10px #0ff;
+            transition: transform 0.3s;
+        }
+
+        .step:hover {
+            transform: scale(1.05);
+            background: rgba(0, 255, 255, 0.3);
+        }
+
+        code {
+            display: block;
+            background: #222;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: 10px;
+            text-align: left;
+            color: #0ff;
+            box-shadow: 0 0 5px #0ff;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #fff;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>⚡ Cyberpunk Hyper.js Configuration Guide</h2>
+
+        <div class="step">
+            <h3>Step 1: Open Hyper Terminal & Create .hyper.js</h3>
+            <p>Run the following command in your terminal:</p>
+            <code>notepad ~/.hyper.js</code>
+            <p>If the file doesn’t exist, it will be created.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 2: Add Cyberpunk Color Palette</h3>
+            <p>Replace the colors section in `.hyper.js` with this:</p>
+            <code>
+                module.exports = {<br>
+                &nbsp;&nbsp;config: {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;colors: {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backgroundColor: '#000000',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foregroundColor: '#0ff',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;borderColor: '#ff0',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cursorColor: '#f0f',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selectionColor: 'rgba(255, 0, 255, 0.3)',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;}<br>
+                };
+            </code>
+        </div>
+
+        <div class="step">
+            <h3>Step 3: Save & Restart Hyper</h3>
+            <p>After saving the file in Notepad, follow these steps:</p>
+            <ul style="list-style: none; padding: 0;">
+                <li>✅ Close Notepad</li>
+                <li>✅ Close Hyper Terminal</li>
+                <li>✅ Reopen Hyper to apply the new theme</li>
+            </ul>
+        </div>
+
+        <div class="footer">Cyberpunk Theme ✦ Created for NAZEON 🚀</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,2738 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="HTML5 Template Hubfolio Multi-Purpose themeforest">
+    <meta name="description" content="Hubfolio - Multi-Purpose HTML5 Template">
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>Nazeon</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://icon2.cleanpng.com/20180613/ysi/aa70c5woh.webp">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+
+    <!-- for fonts -->
+    <link rel="fonots" href="'https://fonts.googleapis.com/css2?family=Orbitron&display=swap'">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../common/css/plugins.css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="../common/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <div class="cursor"></div>
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="#">
+                <img src="assets/imgs/logo.png" alt="logo">
+            </a>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="unique-navbar">
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0d0221;
+        font-family: 'Orbitron', sans-serif;
+        color: #fff;
+    }
+    
+    /* Cyberpunk Navbar */
+    .navbar {
+        position: sticky;
+        top: 0%;
+        width: 100%;
+        background: rgba(10, 10, 30, 0.95);
+        padding: 15px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff;
+        z-index: 1000;
+        border-bottom: 2px solid #ff007f;
+        /* transition: 0.3s ease-in-out; */
+    }
+    
+    /* Navbar Animation */
+    @keyframes neonGlow {
+        0% { box-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff; }
+        50% { box-shadow: 0 0 25px #ff007f, 0 0 40px #00ffff; }
+        100% { box-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff; }
+    }
+    .navbar:hover {
+        animation: neonGlow 1.5s infinite alternate;
+    }
+    
+    /* Navbar Links */
+    .navbar-nav {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        padding: 0;
+    }
+    
+    .nav-item {
+        position: relative;
+    }
+    
+    /* Link Styling */
+    .nav-link {
+        text-decoration: none;
+        color: #00ffff;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        transition: 0.3s ease-in-out;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    /* Hover Effect */
+    .nav-link:hover {
+        color: #ff007f;
+        text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
+    }
+    
+    /* Underline Effect */
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 3px;
+        background: #ff007f;
+        transition: 0.3s ease-in-out;
+        /* transform: translateX(-50%); */
+    }
+    .nav-link:hover::before {
+        width: 100%;
+    }
+    
+    /* Glitch Effect */
+    .glitch {
+        animation: glitch 0.8s infinite alternate;
+    }
+    
+    @keyframes glitch {
+        0% { text-shadow: 2px 2px #ff007f, -2px -2px #00ffff; }
+        100% { text-shadow: -2px -2px #ff007f, 2px 2px #00ffff; }
+    }
+    
+    /* Cyberpunk Glow Animation */
+    @keyframes cyberGlow {
+        0% { text-shadow: 0 0 10px #ff007f, 0 0 20px #00ffff; }
+        50% { text-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff; }
+        100% { text-shadow: 0 0 10px #ff007f, 0 0 20px #00ffff; }
+    }
+    .nav-link:hover {
+        animation: cyberGlow 1.2s infinite alternate;
+    }
+    
+                    </style>
+                </div>
+                <!-- <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0221;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+/* Cyberpunk Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: rgba(10, 10, 30, 0.95);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff;
+    z-index: 1000;
+    border-bottom: 2px solid #ff007f;
+    transition: 0.3s ease-in-out;
+}
+
+/* Navbar Animation */
+@keyframes neonGlow {
+    0% { box-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff; }
+    50% { box-shadow: 0 0 25px #ff007f, 0 0 40px #00ffff; }
+    100% { box-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff; }
+}
+.navbar:hover {
+    animation: neonGlow 1.5s infinite alternate;
+}
+
+/* Navbar Links */
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+}
+
+/* Link Styling */
+.nav-link {
+    text-decoration: none;
+    color: #00ffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+    color: #ff007f;
+    text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
+}
+
+/* Underline Effect */
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background: #ff007f;
+    transition: 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+.nav-link:hover::before {
+    width: 100%;
+}
+
+/* Glitch Effect */
+.glitch {
+    animation: glitch 0.8s infinite alternate;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px #ff007f, -2px -2px #00ffff; }
+    100% { text-shadow: -2px -2px #ff007f, 2px 2px #00ffff; }
+}
+
+/* Cyberpunk Glow Animation */
+@keyframes cyberGlow {
+    0% { text-shadow: 0 0 10px #ff007f, 0 0 20px #00ffff; }
+    50% { text-shadow: 0 0 15px #ff007f, 0 0 30px #00ffff; }
+    100% { text-shadow: 0 0 10px #ff007f, 0 0 20px #00ffff; }
+}
+.nav-link:hover {
+    animation: cyberGlow 1.2s infinite alternate;
+}
+
+                </style> -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#punkabout">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Themes</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topnav d-flex align-items-center">
+                <a href="https://releases.hyper.is/download/win" class="butn butn-rounded">
+                    <div class="d-flex align-items-center">
+                        <span>Try Now!</span>
+                        <span class="icon ml-10">
+                            <img src="#"
+                                alt="">
+                        </span>
+                    </div>
+                </a>
+                <div class="menu-icon cursor-pointer">
+                    <span class="fa-solid fa-bars-staggered"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hamenu">
+        <div class="close-menu cursor-pointer">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="container-fluid rest d-flex">
+            <div class="menu-links">
+                <ul class="main-menu rest">
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"> <span class="fill-text" data-text="Home">Home</span>
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                        </div>
+                        <!-- <div class="sub-menu">
+                            <ul>
+
+
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/modern_portfolio/index.html"
+                                        class="sub-link">Modern Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/digital_studio/index.html"
+                                        class="sub-link">Digital Studio</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/modern_agency/index.html"
+                                        class="sub-link">Modern Agency</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/creative_agency2/index.html"
+                                        class="sub-link">Creative Agency 2</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><span class="fill-text"
+                                    data-text="Pages">Pages</span>
+
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                        </div>
+                        <!-- <div class="sub-menu">
+                            <ul>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html"
+                                        class="sub-link">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/services.html"
+                                        class="sub-link">Our Services</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/service-details.html"
+                                        class="sub-link">Services Details</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/team.html"
+                                        class="sub-link">Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/pricing.html"
+                                        class="sub-link">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/faqs.html"
+                                        class="sub-link">FAQS</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/contact.html"
+                                        class="sub-link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><span class="fill-text"
+                                    data-text="About">About</span>
+                                <i></i>
+                            </div>
+                        </div>
+                        <!-- <div class="sub-menu">
+                            <ul>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html"
+                                        class="sub-link">Standard</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-gallery.html"
+                                        class="sub-link">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-cards.html"
+                                        class="sub-link">Card</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-layout2.html"
+                                        class="sub-link">Grid 2 Column</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-layout3.html"
+                                        class="sub-link">Gid 3 Column</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-layout4.html"
+                                        class="sub-link">Grid 4 Column</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/project-details.html"
+                                        class="sub-link">Project Details</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <div class="link cursor-pointer dmenu"><span class="fill-text"
+                                    data-text="Feedback">Feedback</span>
+                                <i></i>
+                            </div>
+                        </div>
+                        <!-- <div class="sub-menu">
+                            <ul>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-grid.html"
+                                        class="sub-link">Blog Grid</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-standard.html"
+                                        class="sub-link">Blog Standard</a>
+                                </li>
+                                <li>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-details.html"
+                                        class="sub-link">Blog Details</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </li>
+                    <li>
+                        <div class="o-hidden">
+                            <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/contact.html" class="link"><span
+                                    class="fill-text" data-text="Contact Us">Contact Us</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cont-info valign">
+                <div class="text-center full-width">
+                    
+                    <div class="logo">
+                        <img src="assets/imgs/logo.png" alt="">
+                    </div>
+                    <div class="social-icon mt-40">
+                        <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                    </div>
+                    
+                    <div class="item mt-30">
+                        <h5>India</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <div id="smooth-wrapper">
+
+
+        <div id="smooth-content">
+
+            <main>
+
+
+
+                <!-- ==================== Start Header ==================== -->
+
+                <!-- <header class="header-da d-flex align-items-center" data-overlay-dark="3">
+                    <div class="background"></div>
+                    <div class="shape">
+                        <img src="assets/imgs/header/shape.svg" alt="">
+                    </div>
+                    <style></style>
+                    <div class="container">
+                        <div class="caption cyberpunk-header">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-4">
+                                    <div class="text">
+                                        <p class="cyber-glow">Hack into the mainstream, command the cyber-realm.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8">
+                                    <h1 class="glitch" data-text="Modern">Modern</h1>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center">
+                                <div class="col-md-9">
+                                    <h1 class="glitch play" data-text="Immersive">Immersive</h1>
+                                </div>
+                            </div>
+
+                            <div class="row align-items-center mt-15">
+                                <div class="col-md-3">
+                                    <div class="arrow-img text-center">
+                                        <img src="assets/imgs/header/arrow-rb.png" alt=""
+                                            class="icon-img-100 cyber-arrow">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <h1 class="glitch neon-text" data-text="CyberPunk">CyberPunk</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </header> -->
+
+                <!-- <section class="cyberpunk-section">
+                    <div class="cyberpunk-container">
+                        <h2 class="cyberpunk-title">The Future of Web Technology</h2>
+                        <p class="cyberpunk-description">
+                            Step into the <strong>Neon Future</strong> where AI-driven web experiences redefine digital landscapes. 
+                            Experience <span class="highlight">blazing speed</span>, <span class="highlight">real-time interactivity</span>, and an <span class="highlight">ultramodern</span> design system.
+                        </p>
+                        <div class="cyberpunk-buttons">
+                            <button class="cyberpunk-btn cyberpunk-btn-primary">Enter the Grid</button>
+                            <button class="cyberpunk-btn cyberpunk-btn-secondary">Explore More</button>
+                        </div>
+                        <div class="cyberpunk-terminal">
+                            $ npm install cyberpunk-web
+                        </div>
+                    </div>
+                </section>
+                
+                <style>
+                    /* Cyberpunk Section */
+                    .cyberpunk-section {
+                        background-color: rgba(0, 0, 0, 0.9);
+                        padding: 4rem 2rem;
+                        border-radius: 12px;
+                        max-width: 1000px;
+                        margin: 6rem auto 2rem; /* Moved content down to avoid navbar overlap */
+                        text-align: center;
+                        color: #0ff; /* Neon Cyan */
+                        box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+                        border: 2px solid #0ff;
+                    }
+                
+                    /* Title */
+                    .cyberpunk-title {
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                        text-shadow: 0 0 10px #0ff;
+                        letter-spacing: 2px;
+                        word-spacing: 2px;
+                    }
+                
+                    /* Description */
+                    .cyberpunk-description {
+                        font-size: 1.2rem;
+                        color: #bbb;
+                        margin-bottom: 1.5rem;
+                    }
+                
+                    .highlight {
+                        color: #f0f;
+                        text-shadow: 0 0 8px #f0f;
+                        font-weight: bold;
+                    }
+                
+                    /* Buttons */
+                    .cyberpunk-buttons {
+                        display: flex;
+                        gap: 1rem;
+                        justify-content: center;
+                        margin-bottom: 1.5rem;
+                    }
+                
+                    .cyberpunk-btn {
+                        padding: 0.75rem 1.5rem;
+                        border-radius: 8px;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        cursor: pointer;
+                        border: 2px solid #0ff;
+                        background: transparent;
+                        color: #0ff;
+                        transition: all 0.3s ease;
+                        text-transform: uppercase;
+                        box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+                    }
+                
+                    .cyberpunk-btn-primary:hover {
+                        background: #0ff;
+                        color: #000;
+                        box-shadow: 0 0 15px #0ff;
+                    }
+                
+                    .cyberpunk-btn-secondary:hover {
+                        background: #f0f;
+                        color: #000;
+                        box-shadow: 0 0 15px #f0f;
+                    }
+                
+                    /* Terminal */
+                    .cyberpunk-terminal {
+                        background: rgba(0, 255, 255, 0.1);
+                        padding: 0.75rem 1.5rem;
+                        border-radius: 8px;
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 0.5rem;
+                        font-family: monospace;
+                        color: #0ff;
+                        border: 1px solid #0ff;
+                        box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+                    }
+                
+                    .cyberpunk-terminal::before {
+                        content: "❯";
+                        color: #f0f;
+                        font-weight: bold;
+                    }
+                </style> -->
+                <section class="cyberpunk-section">
+                    <div class="cyberpunk-container">
+                        <h2 class="cyberpunk-title">Command the Future, Hack the Mainframe</h2>
+                        <p class="cyberpunk-description">
+                            Step into the <strong>Neon Future</strong> where AI-driven web experiences redefine digital
+                            landscapes.
+                            Experience <span class="highlight">blazing speed</span>, <span class="highlight">real-time
+                                interactivity</span>, and an <span class="highlight">ultramodern</span> design system.
+                        </p>
+                        <div class="cyberpunk-buttons">
+                            <button class="cyberpunk-btn cyberpunk-btn-primary">Download For Window</button>
+                            <button class="cyberpunk-btn cyberpunk-btn-secondary">Download For MacOs</button>
+                        </div>
+                        <div class="cyberpunk-terminal">
+                            For More Option
+                        </div>
+                    </div>
+                </section>
+
+                <style>
+                    /* Cyberpunk Background */
+                    .cyberpunk-section {
+                        /* background: url("assets/imgs/cp_girl2.png") no-repeat center center/cover; */
+                        padding: 4rem 2rem;
+                        height: 100%;
+                        border-radius: 12px;
+                        max-width: 1000px;
+                        margin: 6rem auto 2rem;
+                        /* Pushed down to avoid navbar */
+                        text-align: center;
+                        color: #0ff;
+                        /* Neon Cyan */
+                        box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+                        border: 2px solid #0ff;
+                        position: relative;
+                        overflow: hidden;
+                        margin-top: 8rem;
+                    }
+
+                    /* Cyberpunk Glow Animation */
+                    @keyframes neon-glow {
+                        0% {
+                            text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+                        }
+
+                        50% {
+                            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+                        }
+
+                        100% {
+                            text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+                        }
+                    }
+
+                    /* Cyberpunk Glitch Animation */
+                    @keyframes glitch {
+                        0% {
+                            transform: translate(0);
+                        }
+
+                        25% {
+                            transform: translate(-2px, 2px);
+                        }
+
+                        50% {
+                            transform: translate(2px, -2px);
+                        }
+
+                        75% {
+                            transform: translate(-2px, 2px);
+                        }
+
+                        100% {
+                            transform: translate(0);
+                        }
+                    }
+
+                    /* Title */
+                    /* Cyberpunk Title */
+                    .cyberpunk-title {
+                        font-size: 4rem;
+                        /* Increased Font Size */
+                        font-weight: bolder;
+                        font-family: 'Orbitron', sans-serif;
+                        margin-bottom: 1rem;
+                        word-spacing: 4px;
+                        letter-spacing: 1px;
+                        line-height: 7rem;
+                        transform: scaleY(2.5);
+                        text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+                        animation: pulse-glow 2s infinite alternate-reverse;
+                    }
+
+                    /* Responsive Fix */
+                    @media (max-width: 768px) {
+                        .cyberpunk-title {
+                            font-size: 2.5rem;
+                            /* Adjusted for Mobile */
+                            line-height: 1.2;
+                            /* Prevent Overlapping */
+                            padding: 0 10px;
+                            /* Added Padding */
+                        }
+
+                        .cyberpunk-description {
+                            font-size: 1rem;
+                        }
+
+                        .cyberpunk-buttons {
+                            flex-direction: column;
+                            /* Stacks Buttons on Mobile */
+                            align-items: center;
+                        }
+                    }
+
+
+                    /* Description */
+                    .cyberpunk-description {
+                        font-size: 1.2rem;
+                        color: #bbb;
+                        margin-bottom: 1.5rem;
+                    }
+
+                    .highlight {
+                        color: rgb(237, 183, 237);
+                        font-weight: bold;
+                        text-shadow: 0 0 10px rgb(254, 3, 254), 0 0 20px #f0f;
+                        /* animation: neon-glow 1.5s infinite alternate; */
+                    }
+
+                    /* Buttons */
+                    .cyberpunk-buttons {
+                        display: flex;
+                        gap: 1rem;
+                        justify-content: center;
+                        margin-bottom: 1.5rem;
+                    }
+
+                    .cyberpunk-btn {
+                        padding: 0.75rem 1.5rem;
+                        border-radius: 8px;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        cursor: pointer;
+                        border: 2px solid #0ff;
+                        background: transparent;
+                        color: #0ff;
+                        transition: all 0.3s ease;
+                        text-transform: uppercase;
+                        box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+                    }
+
+                    .cyberpunk-btn-primary:hover {
+                        background: #0ff;
+                        color: #000;
+                        box-shadow: 0 0 20px #0ff, 0 0 30px #0ff;
+                    }
+
+                    .cyberpunk-btn-secondary:hover {
+                        background: #f0f;
+                        color: #000;
+                        box-shadow: 0 0 20px #f0f, 0 0 30px #f0f;
+                    }
+
+                    /* Terminal */
+                    .cyberpunk-terminal {
+                        background: rgba(0, 255, 255, 0.1);
+                        padding: 0.75rem 1.5rem;
+                        border-radius: 8px;
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 0.5rem;
+                        font-family: monospace;
+                        color: #0ff;
+                        border: 1px solid #0ff;
+                        box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+                        animation: neon 1.5s infinite alternate;
+                    }
+
+                    .cyberpunk-terminal::before {
+                        content: "❯";
+                        color: #f0f;
+                        font-weight: bold;
+                    }
+                </style>
+                <section class="install-section">
+                    <h2 class="install-title">Installation</h2>
+                    <p class="install-version">Latest version: v3.4.1</p>
+                
+                    <div class="install-table-container">
+                        <div class="install-table">
+                            <div class="install-row install-header">
+                                <div class="install-cell"></div>
+                                <div class="install-cell">64-bit</div>
+                                <div class="install-cell">arm64</div>
+                            </div>
+                
+                            <div class="install-row">
+                                <div class="install-cell">macOS (.app)</div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/mac" class="download-link">⬇ v3.4.1</a></div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/mac_arm64" class="download-link">⬇ v3.4.1</a></div>
+                            </div>
+                
+                            <div class="install-row">
+                                <div class="install-cell">Windows (.exe)</div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/win" class="download-link">⬇ v3.4.1</a></div>
+                                <div class="install-cell">N/A</div>
+                            </div>
+                
+                            <div class="install-row">
+                                <div class="install-cell">Debian (.deb)</div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/deb" class="download-link">⬇ v3.4.1</a></div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/deb_arm64" class="download-link">⬇ v3.4.1</a></div>
+                            </div>
+                
+                            <div class="install-row">
+                                <div class="install-cell">Fedora (.rpm)</div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/rpm" class="download-link">⬇ v3.4.1</a></div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/rpm_arm64" class="download-link">⬇ v3.4.1</a></div>
+                            </div>
+                
+                            <div class="install-row">
+                                <div class="install-cell">More Linux Distros (.AppImage)</div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/AppImage" class="download-link">⬇ v3.4.1</a></div>
+                                <div class="install-cell"><a href="https://releases.hyper.is/download/AppImage_arm64" class="download-link">⬇ v3.4.1</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <style>
+                    /* General Styles */
+                    body {
+                        background-color: #0a0a0a;
+                        color: #fff;
+                        font-family: 'Arial', sans-serif;
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                        margin: 0;
+                    }
+                
+                    .install-section {
+                        width: 90%;
+                        max-width: 800px;
+                        padding: 20px;
+                        margin-left: 15rem;
+                    }
+                
+                    .install-title {
+                        font-size: 28px;
+                        font-weight: bold;
+                        color: #00ffee;
+                        margin-bottom: 10px;
+                    }
+                
+                    .install-version {
+                        font-size: 14px;
+                        color: #999;
+                        margin-bottom: 20px;
+                    }
+                
+                    /* Centering the Table */
+                    .install-table-container {
+                        display: flex;
+                        justify-content: center;
+                    }
+                
+                    .install-table {
+                        display: table;
+                        width: 100%;
+                        max-width: 600px;
+                        border-collapse: collapse;
+                        background: rgba(0, 255, 255, 0.1);
+                        border-radius: 8px;
+                        overflow: hidden;
+                    }
+                
+                    .install-row {
+                        display: table-row;
+                        background: rgba(255, 255, 255, 0.05);
+                    }
+                
+                    .install-row:nth-child(even) {
+                        background: rgba(255, 255, 255, 0.1);
+                    }
+                
+                    .install-header {
+                        font-weight: bold;
+                        background: rgba(0, 255, 255, 0.2);
+                    }
+                
+                    .install-cell {
+                        display: table-cell;
+                        padding: 15px;
+                        border: 1px solid rgba(255, 255, 255, 0.2);
+                        text-align: center;
+                    }
+                
+                    .download-link {
+                        color: #00ffee;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                
+                    .download-link:hover {
+                        text-decoration: underline;
+                    }
+                
+                    /* Responsive Design */
+                    @media (max-width: 600px) {
+                        .install-table {
+                            display: block;
+                            overflow-x: auto;
+                            white-space: nowrap;
+                        }
+                
+                        .install-cell {
+                            padding: 10px;
+                            font-size: 14px;
+                        }
+                    }
+                </style>
+                
+
+
+                <!-- ==================== End Header ==================== -->
+
+
+
+                <!-- ==================== Start services ==================== -->
+
+                <section class="services-da section-padding">
+                    <div class="container">
+                        <style>
+                            /* Cyberpunk Theme */
+                            .cyberpunk-about {
+                                border-left: 5px solid #00ffff;
+                                padding-left: 15px;
+                            }
+
+                            .glitch {
+                                font-size: 2rem;
+                                font-weight: bold;
+                                position: relative;
+                                color: #ff0099;
+                                text-transform: uppercase;
+                                text-shadow: 0 0 5px #ff0099, 0 0 10px #ff0099, 0 0 15px #00ffff;
+                                animation: glitch-effect 1.5s infinite alternate;
+                            }
+
+                            @keyframes glitch-effect {
+                                0% {
+                                    text-shadow: 2px 2px 5px #ff0099, -2px -2px 5px #00ffff;
+                                }
+
+                                50% {
+                                    text-shadow: -2px -2px 5px #ff0099, 2px 2px 5px #00ffff;
+                                }
+
+                                100% {
+                                    text-shadow: 2px -2px 5px #ff0099, -2px 2px 5px #00ffff;
+                                }
+                            }
+
+                            .cyber-text {
+                                font-size: 1.2rem;
+                                color: #00ffff;
+                                text-shadow: 0 0 5px #00ffff, 0 0 10px #ff0099;
+                            }
+
+                            .neon-text {
+                                color: #ff0099;
+                                text-shadow: 0 0 5px #ff0099, 0 0 10px #ff0066;
+                            }
+
+                            .glow {
+                                color: #ffff00;
+                                text-shadow: 0 0 5px #ffff00, 0 0 10px #ffcc00;
+                            }
+
+                            .cyberpunk-glow {
+                                font-size: 1.2rem;
+                                font-weight: bold;
+                                color: #00ffcc;
+                                text-shadow: 0 0 5px #00ffcc, 0 0 10px #ff00ff;
+                                animation: pulse-glow 1.5s infinite alternate;
+                            }
+
+                            @keyframes pulse-glow {
+                                0% {
+                                    text-shadow: 0 0 5px #00ffcc, 0 0 10px #ff00ff;
+                                }
+
+                                50% {
+                                    text-shadow: 0 0 15px #00ffcc, 0 0 20px #ff00ff;
+                                }
+
+                                100% {
+                                    text-shadow: 0 0 5px #00ffcc, 0 0 10px #ff00ff;
+                                }
+                            }
+
+                            .butn-glitch {
+                                background: linear-gradient(45deg, #ff0099, #00ffff);
+                                color: #000;
+                                font-weight: bold;
+                                box-shadow: 0 0 10px #00ffff, 0 0 20px #ff0099;
+                                transition: all 0.3s ease-in-out;
+                            }
+
+                            .butn-glitch:hover {
+                                background: linear-gradient(45deg, #00ffff, #ff0099);
+                                box-shadow: 0 0 15px #00ffff, 0 0 30px #ff0099;
+                            }
+                        </style>
+                        <div class="sec-head cyberpunk-about mb-100" id="punkabout">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <h6 class="sub-head glitch" data-text="About Us">About Us</h6>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h6 class="cyber-text">
+                                        We are a <span class="neon-text">dedicated team</span> of developers and
+                                        technology enthusiasts passionate about creating
+                                        <span class="glitch-text">innovative</span> and immersive digital experiences.
+                                        <br><br>
+                                        With a deep appreciation for <span class="glow">futuristic design</span>, we
+                                        built this terminal to
+                                        empower users with a seamless, visually striking, and
+                                        efficient command-line experience. 🚀
+                                        <br><br>
+                                        <span class="cyberpunk-glow">Welcome to the future of the terminal.</span>
+                                    </h6>
+
+                                    <a href="https://github.com/YOUR_REPO"
+                                        class="butn butn-md butn-glitch butn-rounded mt-40">
+                                        <div class="d-flex align-items-center">
+                                            <span>Join the Future</span>
+                                            <span class="fa-solid fa-arrow-up fa-rotate-by"
+                                                style="--fa-rotate-angle: 45deg;"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <style>
+                            @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+                            .cyberpunk-stats {
+                                padding: 40px 0;
+                                text-transform: uppercase;
+                                font-family: 'Orbitron', sans-serif;
+                                color: #0ff;
+                                background: #000;
+                                border: 2px solid #ff0099;
+                                box-shadow: 0 0 10px #ff0099, 0 0 20px #00ffff;
+                            }
+
+                            .cyberpunk-stats .item {
+                                margin: 20px 0;
+                            }
+
+                            .cyberpunk-stats h2 {
+                                font-size: 3rem;
+                                color: #ff0099;
+                                text-shadow: 0 0 10px #ff0099, 0 0 20px #00ffff;
+                                transition: 0.3s ease-in-out;
+                            }
+
+                            .cyberpunk-stats h2:hover {
+                                text-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff;
+                            }
+
+                            .cyberpunk-stats p {
+                                font-size: 1.2rem;
+                                color: #0ff;
+                                text-shadow: 0 0 5px #00ffff;
+                            }
+
+                            /* Glitch Effect */
+                            .glitch {
+                                position: relative;
+                                animation: glitch 1s infinite;
+                            }
+
+                            .glitch::before,
+                            .glitch::after {
+                                content: attr(data-text);
+                                position: absolute;
+                                left: 0;
+                                width: 100%;
+                                color: #ff00ff;
+                                background: black;
+                                clip: rect(0, 0, 0, 0);
+                            }
+
+                            .glitch::before {
+                                animation: glitchTop 1s infinite linear alternate-reverse;
+                            }
+
+                            .glitch::after {
+                                animation: glitchBottom 1s infinite linear alternate;
+                            }
+
+                            @keyframes glitchTop {
+                                0% {
+                                    clip: rect(24px, 9999px, 30px, 0);
+                                    transform: translate(-5px, -5px);
+                                }
+
+                                100% {
+                                    clip: rect(5px, 9999px, 15px, 0);
+                                    transform: translate(5px, 5px);
+                                }
+                            }
+
+                            @keyframes glitchBottom {
+                                0% {
+                                    clip: rect(5px, 9999px, 15px, 0);
+                                    transform: translate(5px, -5px);
+                                }
+
+                                100% {
+                                    clip: rect(24px, 9999px, 30px, 0);
+                                    transform: translate(-5px, 5px);
+                                }
+                            }
+                        </style>
+                        <div class="cyberpunk-stats">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 item text-center">
+                                    <h2 class="glitch" data-text="10+">10<span>+</span></h2>
+                                    <p>Hours of Development</p>
+                                </div>
+                                <div class="col-lg-3 col-md-6 item text-center">
+                                    <h2 class="glitch" data-text="500+">5<span>+</span></h2>
+                                    <p>Community Contributors</p>
+                                </div>
+                                <div class="col-lg-3 col-md-6 item text-center">
+                                    <h2 class="glitch" data-text="124+">124<span>+</span></h2>
+                                    <p>Forks & Clones</p>
+                                </div>
+                                <div class="col-lg-3 col-md-6 item text-center">
+                                    <h2 class="glitch" data-text="42K">42K</h2>
+                                    <p>Lines of Code</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <style>
+                        /* Cyberpunk Font Import */
+                        /* Center the Button */
+                        /* Center the Button */
+                        .cyberpunk-btn-container {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100vh;
+                            /* Full screen height */
+                            width: 100%;
+                            position: relative;
+                            padding-top: 3px;
+                            /* 2-3 pixel padding from the top */
+                        }
+
+                        /* Cyberpunk Font Import */
+                        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+                        .cyberpunk-btn {
+                            font-family: 'Orbitron', sans-serif;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                            color: #00ffff;
+                            padding: 12px 24px;
+                            border: 2px solid #00ffff;
+                            background: linear-gradient(90deg, #ff0099, #00ffff);
+                            background-size: 200% 200%;
+                            text-decoration: none;
+                            position: relative;
+                            overflow: hidden;
+                            transition: 0.3s ease-in-out;
+                            display: inline-block;
+                            margin: 3px;
+                            box-shadow: 0 0 10px #00ffff, 0 0 20px #ff0099;
+                            animation: neon-background 3s infinite alternate, neon-flicker 1.5s infinite alternate;
+                        }
+
+                        /* Glitch Effect */
+                        .cyberpunk-btn::before,
+                        .cyberpunk-btn::after {
+                            content: '';
+                            position: absolute;
+                            padding-left: 10px;
+                            width: 100%;
+                            height: 100%;
+                            background: linear-gradient(90deg, #00ffff 0%, #ff0099 100%);
+                            top: 0;
+                            left: 0;
+                            text-align: center;
+                            opacity: 0;
+                            transition: 0.3s ease-in-out;
+                        }
+
+                        .cyberpunk-btn:hover::before {
+                            opacity: 0.1;
+                            filter: blur(5px);
+                        }
+
+                        .cyberpunk-btn:hover {
+                            box-shadow: 0 0 20px #00ffff, 0 0 40px #ff0099;
+                            transform: scale(1.05);
+                        }
+
+                        /* Flickering Neon Effect */
+                        @keyframes neon-flicker {
+                            0% {
+                                box-shadow: 0 0 10px #00ffff, 0 0 20px #ff0099;
+                            }
+
+                            50% {
+                                box-shadow: 0 0 15px #00ffff, 0 0 30px #ff0099;
+                            }
+
+                            100% {
+                                box-shadow: 0 0 10px #00ffff, 0 0 20px #ff0099;
+                            }
+                        }
+
+                        /* Dynamic Changing Background Animation */
+                        @keyframes neon-background {
+                            0% {
+                                background-position: 0% 50%;
+                            }
+
+                            50% {
+                                background-position: 100% 50%;
+                            }
+
+                            100% {
+                                background-position: 0% 50%;
+                            }
+                        }
+                    </style>
+                    <br>
+                    <br>
+                    <a href="#" class="cyberpunk-btn">
+                        <span>Next Steps 👇</span>
+                    </a>
+
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container-fluid serv-box" id="">
+                        <!-- temp-hell -->
+                        <!-- <div class="row">
+
+                            
+                                </div>
+                            </div>
+                            <div class="col-lg-4 serv-item">
+                                <div class="cont ontop mb-50">
+                                    <h5>Branding</h5>
+                                    <span class="sub-color">Art Direction</span>
+                                </div>
+                                <div class="ontop">
+                                    <p>Brand Identity, Stragegy & Consult, <br> Position, Rebrand</p>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/service-details.html"
+                                        class="butn butn-md butn-rounded mt-15">
+                                        <div class="d-flex align-items-center">
+                                            <span>View Details</span>
+                                            <span class="icon ml-10">
+                                                <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/arrow-top-right.svg"
+                                                    alt="">
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <img src="assets/imgs/services/2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 serv-item">
+                                <div class="cont ontop mb-50">
+                                    <h5>Digital Platform</h5>
+                                    <span class="sub-color">Product Development</span>
+                                </div>
+                                <div class="ontop">
+                                    <p>We provide digital solutions as Website Design, <br> Mobile App Design
+                                        Illustration, Animation</p>
+                                    <a href="https://uithemez.com/i/hubfolio_HTML/inner_pages/service-details.html"
+                                        class="butn butn-md butn-rounded mt-15">
+                                        <div class="d-flex align-items-center">
+                                            <span>View Details</span>
+                                            <span class="icon ml-10">
+                                                <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/arrow-top-right.svg"
+                                                    alt="">
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <img src="assets/imgs/services/3.svg" alt="">
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="row cyberpunk-container">
+                           
+                            <!-- Cyberpunk Card -->
+                            <div class="cyberpunk-card">
+                                <div class="cyberpunk-header glitch" data-text="Step 1:-">Step 1:-</div>
+                                <div class="cyberpunk-body">
+                                    <h5 class="cyberpunk-title">Set up your custom Theme</h5>
+                                    <p class="cyberpunk-text">Set up your custom Theme Pallet and personalize your
+                                        terminal's neon glow.</p>
+                                    <a href="#hacker-zone" class="cyberpunk-btn" id="openPopup">View Steps</a>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- JavaScript for Popup -->
+
+
+
+                            <style>
+                                /* Cyberpunk Card Styles */
+                                .cyberpunk-card {
+                                    background: rgba(10, 10, 10, 0.9);
+                                    border: 2px solid #0ff;
+                                    box-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+                                    border-radius: 10px;
+                                    padding: 20px;
+                                    max-width: 400px;
+                                    text-align: center;
+                                    transition: 0.3s ease-in-out;
+                                    position: relative;
+                                    overflow: hidden;
+                                    margin-left: 20px;
+                                }
+
+                                /* Header with Glitch Effect */
+                                .cyberpunk-header {
+                                    font-size: 1.8rem;
+                                    font-weight: bold;
+                                    color: #ff007f;
+                                    text-shadow: 0 0 5px #ff007f, 0 0 10px #ff00ff;
+                                    animation: pulse 1.5s infinite alternate;
+                                }
+
+                                /* Glitch Animation */
+                                @keyframes glitch {
+                                    0% {
+                                        text-shadow: 2px 2px 0 red, -2px -2px 0 cyan;
+                                    }
+
+                                    50% {
+                                        text-shadow: -2px -2px 0 red, 2px 2px 0 cyan;
+                                    }
+
+                                    100% {
+                                        text-shadow: 2px -2px 0 red, -2px 2px 0 cyan;
+                                    }
+                                }
+
+                                /* Cyberpunk Title */
+                                .cyberpunk-title {
+                                    font-size: 1rem;
+                                    color: #0ff;
+                                    padding: 25px;
+                                    text-shadow: 0 0 5px #0ff, 0 0 15px #00f;
+                                }
+
+                                /* Cyberpunk Text */
+                                .cyberpunk-text {
+                                    font-size: 1rem;
+                                    color: #999;
+                                    margin: 25px;
+                                }
+
+                                /* Cyberpunk Button */
+                                .cyberpunk-btn {
+                                    display: inline-block;
+                                    padding: 10px 20px;
+                                    padding-bottom: 4px;
+                                    font-size: 1rem;
+                                    color: #0ff;
+                                    text-transform: uppercase;
+                                    border: 2px solid #0ff;
+                                    text-decoration: none;
+                                    position: relative;
+                                    transition: 0.3s;
+                                    background: transparent;
+                                }
+
+                                .cyberpunk-btn:hover {
+                                    background: #0ff;
+                                    color: #000;
+                                    box-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+                                }
+
+                                /* Flickering Effect */
+                                @keyframes flicker {
+                                    0% {
+                                        opacity: 1;
+                                    }
+
+                                    50% {
+                                        opacity: 0.3;
+                                    }
+
+                                    100% {
+                                        opacity: 1;
+                                    }
+                                }
+
+                                .cyberpunk-card::before {
+                                    content: "";
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background: rgba(255, 255, 255, 0.02);
+                                    animation: cyber-glitch 0.15s infinite alternate;
+                                }
+                            </style>
+
+
+                            <!-- Card 2 -->
+                            
+
+                            <div class="cyberpunk-card">
+
+                                <div class="cyberpunk-header glitch" data-text="Step 2:-">Step 2:-</div>
+                                <div class="cyberpunk-body">
+                                    <h5 class="cyberpunk-title">Theme Configuration</h5>
+                                    <p class="cyberpunk-text">Customize your Hyper terminal with vibrant neon colors and
+                                        a futuristic look.</p>
+                                    <a href="#hacker-zone" class="cyberpunk-btn">Choose Pallet </a>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- Card 3 -->
+                            <div class="cyberpunk-card">
+
+                                <div class="cyberpunk-header glitch" data-text="Step 3:-">Step 3:-</div>
+                                <div class="cyberpunk-body">
+                                    <h5 class="cyberpunk-title">Final Setup</h5>
+                                    <p class="cyberpunk-text">Complete the setup with a personalized theme for a stylish
+                                        experience.</p>
+                                    <a href="#hacker-zone" class="cyberpunk-btn">View Steps</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </section>
+
+                <!-- ==================== End services ==================== -->
+
+
+
+                <!-- ==================== Start Portfolio ==================== -->
+
+                <section class="work-da section-padding pt-0">
+                    <div class="container">
+                        <!-- 🚀 Cyberpunk Section Header -->
+                        <div id="neon-header" class="cyber-container">
+                            <style>
+                                @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+                                #neon-header {
+                                    text-align: center;
+                                    background: linear-gradient(135deg, #000000 40%, #111111);
+                                    padding: 50px 20px;
+                                    border-top: 3px solid #ffcc00;
+                                    border-bottom: 3px solid #00ffee;
+                                    box-shadow: 0 0 20px #00ffee;
+                                    font-family: 'Orbitron', sans-serif;
+                                }
+
+                                .glitchy-subtitle {
+                                    color: #ffcc00;
+                                    font-size: 18px;
+                                    letter-spacing: 1px;
+                                    text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00;
+                                }
+
+                                .glitchy-title {
+                                    font-size: 36px;
+                                    font-weight: bold;
+                                    color: #00ffee;
+                                    text-transform: uppercase;
+                                    text-shadow: 0 0 5px #00ffee, 0 0 15px #00ffee;
+                                    animation: glitch 1.2s infinite alternate;
+                                }
+
+                                @keyframes glitch {
+                                    0% {
+                                        text-shadow: 2px 2px #ff00ff, -2px -2px #00ffee;
+                                    }
+
+                                    100% {
+                                        text-shadow: -2px -2px #ff00ff, 2px 2px #00ffee;
+                                    }
+                                }
+
+                                .neon-text {
+                                    font-size: 16px;
+                                    color: #ffffff;
+                                    opacity: 0.8;
+                                    max-width: 600px;
+                                    margin: 0 auto;
+                                    line-height: 1.5;
+                                }
+                            </style>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-md-10">
+                                    <p class="glitchy-subtitle">⚡ The Future of Innovation</p>
+                                    <p class="neon-text">
+                                        Cybernetic challenges demand bold solutions. Our technology revolutionizes
+                                        industries and elevates
+                                        pioneers to their next digital frontier.
+                                    </p>
+                                    <h2 class="glitchy-title">NAZEON</h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row cyberpunk-bg-container" id="bg-fix">
+                            <div class="col-lg-12">
+                                <div class="item mt-60">
+                                    <div class="img cyberpunk-fit-img">
+                                        <img src="mycyberbg.png" alt="NAZEON">
+                                        <a href="#" class="plink"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <style>
+                        /* Cyberpunk Background Section */
+                        #bg-fix {
+                            height: 400px;  /* Adjust height */
+                            width: 100%;  /* Full width */
+                            background: ur('mycyberbg.png') no-repeat center center/cover;
+                            border: 2px solid rgba(0, 255, 255, 0.6);
+                            box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
+                            border-radius: 12px;
+                            overflow: hidden;
+                        }
+                        
+                        /* Image Container */
+                        .cyberpunk-fit-img {
+                            position: relative;
+                            width: 100%;
+                            max-width: 500px;
+                            z-index: 2; /* Adjust size */
+                            opacity: 2;
+                        }
+                        .cyberpunk-fit-img img {
+                            width: 100;
+                            height: 100vh;
+                            border-radius: 10px;
+                            box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+                            transition: transform 0.3s ease-in-out;
+                        }
+                        /* .cyberpunk-fit-img img:hover {
+                            transform: scale(1.05);
+                        }
+                        
+                        /* Overlay Glow */
+                        .cyberpunk-bg-container::after {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: rgba(0, 0, 0, 0.4);
+                            box-shadow: inset 0 0 50px rgba(0, 255, 255, 0.3);
+                        } */
+                        
+                        /* Floating Glowing Link */
+                        .plink {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            background: rgba(0, 255, 255, 0.9);
+                            padding: 12px 24px;
+                            color: #000;
+                            font-weight: bold;
+                            text-decoration: none;
+                            border-radius: 5px;
+                            box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+                            transition: 0.3s;
+                        }
+                        .plink:hover {
+                            background: rgba(0, 170, 255, 1);
+                            box-shadow: 0 0 25px rgba(0, 170, 255, 0.9);
+                        }
+                        </style>
+                        
+
+                    </div>
+                </section>
+
+                <!-- ==================== End Portfolio ==================== -->
+                <!-- 🔥 Cyberpunk Hyper.js Configuration Section -->
+                <!-- 🕶️ Cyberpunk Hyper.js Configuration Section -->
+                <section id="hacker-zone">
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+                        #hacker-zone {
+                            background: #0a0a0a;
+                            color: #00ffee;
+                            font-family: 'Orbitron', sans-serif;
+                            text-align: center;
+                            padding: 50px 20px;
+                            border-top: 3px solid #ffcc00;
+                            border-bottom: 3px solid #ffcc00;
+                            box-shadow: 0 0 15px #ffcc00;
+                        }
+
+                        .neon-container {
+                            max-width: 700px;
+                            margin: auto;
+                            background: #111;
+                            padding: 30px;
+                            border-radius: 10px;
+                            border: 2px solid #00ffee;
+                            box-shadow: 0 0 15px #00ffee;
+                            transition: 0.3s ease-in-out;
+                        }
+
+                        .glitchy-title {
+                            color: #ffcc00;
+                            text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00;
+                        }
+
+                        .glitchy-step {
+                            margin: 20px 0;
+                            padding: 15px;
+                            border-radius: 8px;
+                            background: rgba(0, 255, 255, 0.1);
+                            border-left: 5px solid #00ffee;
+                            box-shadow: 0 0 10px #00ffee;
+                            transition: transform 0.3s;
+                        }
+
+                        .glitchy-step:hover {
+                            transform: scale(1.05);
+                            background: rgba(0, 255, 255, 0.3);
+                        }
+
+                        .matrix-text {
+                            display: block;
+                            background: #222;
+                            padding: 10px;
+                            border-radius: 5px;
+                            font-size: 14px;
+                            margin-top: 10px;
+                            text-align: left;
+                            color: #00ffee;
+                            box-shadow: 0 0 5px #00ffee;
+                            overflow-x: auto;
+                        }
+
+                        .hacker-footer {
+                            margin-top: 20px;
+                            font-size: 14px;
+                            color: #fff;
+                            opacity: 0.7;
+                        }
+                    </style>
+
+                    <div class="neon-container">
+                        <h2 class="glitchy-title">⚡ Cyberpunk Hyper.js Configuration Guide</h2>
+
+                        <div class="glitchy-step">
+                            <h3>Step 1: Open Hyper Terminal & Create .hyper.js</h3>
+                            <p>Run the following command in your terminal:</p>
+                            <code class="matrix-text">notepad ~/.hyper.js</code>
+                            <p>If the file doesn’t exist, it will be created.</p>
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="glitchy-step">
+                            <h3>Step 2: Add Cyberpunk Color Palette</h3>
+                            <p>Replace the colors section in `.hyper.js` with this:</p>
+                            <code class="matrix-text">
+                module.exports = {<br>
+                &nbsp;&nbsp;config: {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;colors: {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backgroundColor: '#000000', /* Black */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foregroundColor: '#00ffee', /* Neon Cyan */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;borderColor: '#ffcc00', /* Bright Yellow */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cursorColor: '#ff00ff', /* Neon Purple */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selectionColor: 'rgba(255, 0, 255, 0.3)', /* Magenta Glow */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;black: '#000000',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;red: '#ff355e', /* Neon Red */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;green: '#00ff00', /* Bright Green */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yellow: '#ffcc00', /* Cyber Yellow */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blue: '#00ccff', /* Electric Blue */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;magenta: '#ff00ff',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cyan: '#00ffee',<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;white: '#ffffff'<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;}<br>
+                };
+            </code>
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="glitchy-step">
+                            <h3>Step 3: Save & Restart Hyper</h3>
+                            <p>After saving the file in Notepad, follow these steps:</p>
+                            <ul style="list-style: none; padding: 0;">
+                                <li>✅ Close Notepad</li>
+                                <li>✅ Close Hyper Terminal</li>
+                                <li>✅ Reopen Hyper to apply the new theme</li>
+                            </ul>
+                        </div>
+          
+                
+                        <div class="hacker-footer">Cyberpunk Theme ✦ Created for Hyper Terminal 🚀</div>
+                    </div>
+                </section>
+
+                <section class="unique-themes-section" style="max-width: 900px; margin: auto; padding: 20px;">
+                    <h2 style="font-size: 2rem; text-transform: uppercase; color: #00ffea; text-shadow: 0px 0px 10px #00ffff;">Hyper.js Themes</h2>
+            
+                    <div class="unique-theme-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px;">
+            
+                        <!-- Cyberpunk Theme -->
+                        <div class="unique-theme-box" style="background: #121212; padding: 15px; border-radius: 10px; border: 2px solid #ff00ff; box-shadow: 0px 0px 10px #ff00ff; text-align: left; position: relative;">
+                            <h3 style="color: #ff00ff;">Cyberpunk</h3>
+                            <pre id="cyberpunk-code" style="background: rgba(0, 0, 0, 0.8); padding: 10px; border-radius: 5px; font-size: 14px; overflow-x: auto;">
+            module.exports = {
+              config: {
+                fontSize: 14,
+                fontFamily: 'Fira Code, monospace',
+                cursorColor: 'rgba(255, 0, 255, 0.8)',
+                borderColor: '#ff00ff',
+                backgroundColor: '#000000',
+                foregroundColor: '#00ff00',
+                cursorBlink: true
+              }
+            };
+                            </pre>
+                            <button class="unique-copy-btn" onclick="copyCode('cyberpunk-code')" style="position: absolute; top: 10px; right: 10px; background: #00ffea; color: black; border: none; padding: 5px 10px; cursor: pointer; font-weight: bold; border-radius: 5px; transition: 0.3s;">Copy</button>
+                        </div>
+            
+                        <!-- Modern Dark Theme -->
+                        <div class="unique-theme-box" style="background: #121212; padding: 15px; border-radius: 10px; border: 2px solid #ffffff; box-shadow: 0px 0px 10px #ffffff; text-align: left; position: relative ;
+                            ">
+                            <h3 style="color: #ffffff;">Modern Dark</h3>
+                            <pre id="modern-dark-code" style="background: rgba(0, 0, 0, 0.8); padding: 10px; border-radius: 5px; font-size: 14px; overflow-x: auto;">
+            module.exports = {
+              config: {
+                fontSize: 14,
+                fontFamily: 'JetBrains Mono, monospace',
+                cursorColor: 'rgba(255, 255, 255, 0.8)',
+                borderColor: '#1a1a1a',
+                backgroundColor: '#0d0d0d',
+                foregroundColor: '#ffffff',
+                cursorBlink: true
+              }
+            };
+                            </pre>
+                            <button class="unique-copy-btn" onclick="copyCode('cyberpunk-code')" style="position: absolute; top: 10px; right: 10px; background: #00ffea; color: black; border: none; padding: 5px 10px; cursor: pointer; font-weight: bold; border-radius: 5px; transition: 0.3s;">Copy</button>
+
+                            <style>
+                                .unique-copy-btn {
+                                    position: absolute;
+                                    top: 10px;
+                                    right: 10px;
+                                    background: #00ffea;
+                                    color: black;
+                                    border: none;
+                                    padding: 10px 20px;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                    border-radius: 5px;
+                                    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+                                    font-size: 16px;
+                                }
+                            
+                                .unique-copy-btn:hover {
+                                    transform: translateY(-5px) scale(1.1); /* Makes it pop out */
+                                    background: rgba(0, 170, 255, 1);
+                                    box-shadow: 0 0 25px rgba(0, 170, 255, 0.9), 
+                                                0 0 50px rgba(0, 170, 255, 0.7), 
+                                                0 0 100px rgba(0, 170, 255, 0.5);
+                                    animation: neonFlicker 0.5s ease-in-out infinite alternate;
+                                }
+                            
+                                @keyframes neonFlicker {
+                                    0% {
+                                        box-shadow: 0 0 20px rgba(0, 170, 255, 0.8), 
+                                                    0 0 40px rgba(0, 170, 255, 0.6);
+                                    }
+                                    100% {
+                                        box-shadow: 0 0 30px rgba(0, 170, 255, 1), 
+                                                    0 0 60px rgba(0, 170, 255, 0.8), 
+                                                    0 0 120px rgba(0, 170, 255, 0.5);
+                                    }
+                                }
+                            </style>
+                            
+
+<style>
+    .unique-copy-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #00ffea;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        font-size: 16px;
+    }
+
+    .unique-copy-btn:hover {
+        transform: translateY(-5px) scale(1.1); /* Makes it pop out */
+        background: rgba(0, 170, 255, 1);
+        box-shadow: 0 0 25px rgba(0, 170, 255, 0.9), 
+                    0 0 50px rgba(0, 170, 255, 0.7), 
+                    0 0 100px rgba(0, 170, 255, 0.5);
+        animation: neonFlicker 0.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes neonFlicker {
+        0% {
+            box-shadow: 0 0 20px rgba(0, 170, 255, 0.8), 
+                        0 0 40px rgba(0, 170, 255, 0.6);
+        }
+        100% {
+            box-shadow: 0 0 30px rgba(0, 170, 255, 1), 
+                        0 0 60px rgba(0, 170, 255, 0.8), 
+                        0 0 120px rgba(0, 170, 255, 0.5);
+        }
+    }
+</style>
+
+                            
+                        </div>
+            
+                        <!-- Cyber Neon Theme -->
+                        <div class="unique-theme-box" style="background: #121212; padding: 15px; border-radius: 10px; border: 2px solid #00ffff; box-shadow: 0px 0px 10px #00ffff; text-align: left; position: relative;">
+                            <h3 style="color: #00ffff;">Cyber Neon</h3>
+                            <pre id="cyber-neon-code" style="background: rgba(0, 0, 0, 0.8); padding: 10px; border-radius: 5px; font-size: 14px; overflow-x: auto;">
+            module.exports = {
+              config: {
+                fontSize: 15,
+                fontFamily: 'Roboto Mono, monospace',
+                cursorColor: 'rgba(0, 255, 255, 0.8)',
+                borderColor: '#00ffff',
+                backgroundColor: '#101010',
+                foregroundColor: '#ff00ff',
+                cursorBlink: true
+              }
+            };
+                            </pre>
+                            <button class="unique-copy-btn" onclick="copyCode('cyber-neon-code')" style="position: absolute; top: 10px; right: 10px; background: #00ffea; color: black; border: none; padding: 5px 10px; cursor: pointer; font-weight: bold; border-radius: 5px; transition: 0.3s;">Copy</button>
+                        </div>
+            
+                        <!-- Minimal Light Theme -->
+                        <div class="unique-theme-box" style="background: #f0f0f0; color: black; padding: 15px; border-radius: 10px; border: 2px solid #e0e0e0; box-shadow: 0px 0px 10px #e0e0e0; text-align: left; position: relative;">
+                            <h3 style="color: black;">Minimal Light</h3>
+                            <pre id="minimal-light-code" style="background: rgba(255, 255, 255, 0.8); padding: 10px; border-radius: 5px; font-size: 14px; overflow-x: auto;">
+            module.exports = {
+              config: {
+                fontSize: 13,
+                fontFamily: 'Source Code Pro, monospace',
+                cursorColor: 'rgba(0, 0, 0, 0.8)',
+                borderColor: '#e0e0e0',
+                backgroundColor: '#ffffff',
+                foregroundColor: '#333333',
+                cursorBlink: true
+              }
+            };
+                            </pre>
+                            <button class="unique-copy-btn" onclick="copyCode('minimal-light-code')" style="position: absolute; top: 10px; right: 10px; background: #00ffea; color: black; border: none; padding: 5px 10px; cursor: pointer; font-weight: bold; border-radius: 5px; transition: 0.3s;">Copy</button>
+                        </div>
+            
+                    </div>
+                </section>
+            
+                <script>
+                    function copyCode(id) {
+                        const codeElement = document.getElementById(id);
+                        const textArea = document.createElement("textarea");
+                        textArea.value = codeElement.innerText;
+                        document.body.appendChild(textArea);
+                        textArea.select();
+                        document.execCommand("copy");
+                        document.body.removeChild(textArea);
+                        alert("Code copied!");
+                    }
+                </script>
+            
+
+
+
+                <!-- ==================== Start Services ==================== -->
+
+                <!-- ==================== End Services ==================== -->
+
+
+
+                <!-- ==================== Start clients ==================== -->
+
+                <section class="clients-sa section-padding pb-0 cyberpunk-theme">
+                    <div class="container">
+                        <div class="sec-head mb-100">
+                            <h6 class="sub-head neon-text">Our Company Users</h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-4 col-6 md-mb30">
+                                <div class="item d-flex align-items-center justify-content-center neon-box">
+                                    <div class="img">
+                                        <img src="assets/imgs/brands/1.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-6 md-mb30">
+                                <div class="item d-flex align-items-center justify-content-center neon-box">
+                                    <div class="img">
+                                        <img src="assets/imgs/brands/2.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-6 md-mb30">
+                                <div class="item d-flex align-items-center justify-content-center neon-box">
+                                    <div class="img">
+                                        <img src="assets/imgs/brands/3.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-6 sm-mb30">
+                                <div class="item d-flex align-items-center justify-content-center neon-box">
+                                    <div class="img">
+                                        <img src="assets/imgs/brands/4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-6 sm-mb30">
+                                <div class="item d-flex align-items-center justify-content-center neon-box">
+                                    <div class="img">
+                                        <img src="assets/imgs/brands/5.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-6">
+                                <div class="item d-flex align-items-center justify-content-center neon-box">
+                                    <div class="cont sub-color">
+                                        <div class="icon invert">
+                                            <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/global.svg" alt="">
+                                        </div>
+                                        <span class="neon-text">125+ clients <br> worldwide</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <style>
+                    .cyberpunk-theme {
+                        background: #0d0d0d;
+                        padding: 50px 0;
+                    }
+                    .neon-text {
+                        color: #0ff;
+                        text-shadow: 0 0 5px #0ff, 0 0 10px #00f, 0 0 15px #0ff;
+                    }
+                    .neon-box {
+                        background: rgba(0, 0, 0, 0.3);
+                        border: 2px solid #0ff;
+                        padding: 15px;
+                        border-radius: 8px;
+                        box-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+                        transition: transform 0.3s ease-in-out;
+                    }
+                    .neon-box:hover {
+                        transform: scale(1.1);
+                        box-shadow: 0 0 15px #0ff, 0 0 30px #00f;
+                    }
+                </style>
+                
+
+                <!-- ==================== End clients ==================== -->
+
+
+
+                <!-- ==================== Start Testimonials ==================== -->
+
+                <section id="neon-testimonials" class="cyber-testimonials">
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+                
+                        #neon-testimonials {
+                            background: linear-gradient(135deg, #000000, #111111);
+                            padding: 60px 20px;
+                            text-align: center;
+                            font-family: 'Orbitron', sans-serif;
+                            border-top: 3px solid #ff00ff;
+                            border-bottom: 3px solid #00ffee;
+                            box-shadow: 0 0 20px #00ffee;
+                            overflow: hidden;
+                            position: relative;
+                        }
+                
+                        .neon-heading {
+                            color: #ff00ff;
+                            font-size: 24px;
+                            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+                        }
+                
+                        .neon-subheading {
+                            color: #00ffee;
+                            font-size: 32px;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            text-shadow: 0 0 5px #00ffee, 0 0 15px #00ffee;
+                            animation: glitch 1.2s infinite alternate;
+                        }
+                
+                        @keyframes glitch {
+                            0% { text-shadow: 2px 2px #ff00ff, -2px -2px #00ffee; }
+                            100% { text-shadow: -2px -2px #ff00ff, 2px 2px #00ffee; }
+                        }
+                
+                        .testimonial-container {
+                            display: flex;
+                            width: 100%;
+                            overflow: hidden;
+                            justify-content: center;
+                            position: relative;
+                        }
+                
+                        .testimonial-box {
+                            background: rgba(20, 20, 20, 0.9);
+                            border: 2px solid #ff00ff;
+                            padding: 20px;
+                            border-radius: 10px;
+                            box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffee;
+                            margin: 10px;
+                            text-align: left;
+                            color: #fff;
+                            width: 300px;
+                            min-width: 300px;
+                            transition: transform 0.5s ease-in-out;
+                        }
+                
+                        .testimonial-box p {
+                            font-size: 16px;
+                            opacity: 0.8;
+                        }
+                
+                        .neon-stars {
+                            color: #ffcc00;
+                            text-shadow: 0 0 5px #ffcc00;
+                        }
+                
+                        .testimonial-author {
+                            margin-top: 10px;
+                            font-weight: bold;
+                            color: #00ffee;
+                        }
+                
+                        .testimonial-wrapper {
+                            display: flex;
+                            animation: slide 15s infinite linear;
+                        }
+                
+                        @keyframes slide {
+                            0% { transform: translateX(0%); }
+                            100% { transform: translateX(-100%); }
+                        }
+                    </style>
+                
+                    <div class="container">
+                        <h6 class="neon-heading">⚡ Neon Testimonials</h6>
+                        <h4 class="neon-subheading">What Our Cyberspace Clients Say</h4>
+                        <div class="testimonial-container">
+                            <div class="testimonial-wrapper">
+                                <div class="testimonial-box">
+                                    <p>🟢 "A mind-blowing experience! Their cyber-enhanced services took our startup to the next level. Highly recommended!"</p>
+                                    <h6 class="testimonial-author">- Zane Cyberwave | CEO, HyperTech</h6>
+                                    <span class="neon-stars">⭐⭐⭐⭐⭐</span>
+                                </div>
+                                <div class="testimonial-box">
+                                    <p>🔵 "Neon-infused designs and AI-driven strategies! The futuristic approach exceeded our expectations."</p>
+                                    <h6 class="testimonial-author">- Kira Neon | Founder, CyberNova</h6>
+                                    <span class="neon-stars">⭐⭐⭐⭐⭐</span>
+                                </div>
+                                <div class="testimonial-box">
+                                    <p>🟣 "Their next-gen solutions transformed our entire workflow into a digital paradise. Best decision ever!"</p>
+                                    <h6 class="testimonial-author">- Axel Circuit | CTO, HoloTech</h6>
+                                    <span class="neon-stars">⭐⭐⭐⭐⭐</span>
+                                </div>
+                                <div class="testimonial-box">
+                                    <p>🟠 "Unreal performance and cutting-edge technology! If you're not working with them, you're missing out."</p>
+                                    <h6 class="testimonial-author">- Luna Quantum | Lead Developer, NexusCorp</h6>
+                                    <span class="neon-stars">⭐⭐⭐⭐⭐</span>
+                                </div>
+                                <div class="testimonial-box">
+                                    <p>🟡 "Their AI-driven cyber solutions are the best in the game. Our business saw an exponential boost!"</p>
+                                    <h6 class="testimonial-author">- Nova Hax | Security Analyst, CyberSafe</h6>
+                                    <span class="neon-stars">⭐⭐⭐⭐⭐</span>
+                                </div>
+                                <div class="testimonial-box">
+                                    <p>🔴 "An absolute game-changer! The neon-powered UX/UI design is ahead of its time!"</p>
+                                    <h6 class="testimonial-author">- Rex Byte | Founder, SynthTech</h6>
+                                    <span class="neon-stars">⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                
+
+                <!-- ==================== End Testimonials ==================== -->
+
+
+
+                <!-- ==================== Start Awards ==================== -->
+
+                <section class="nazeon-docs">
+                    <div class="nazeon-container">
+                        <div class="nazeon-header text-center">
+                            <h2 class="nazeon-title">NAZEON - Project Documentation</h2>
+                            <p class="nazeon-subtitle">Everything you need to know about this project</p>
+                        </div>
+                
+                        <!-- Project Overview -->
+                        <div class="nazeon-section">
+                            <h3>1. Overview</h3>
+                            <p><strong>NAZEON</strong> is a cutting-edge project designed for <strong>[describe purpose]</strong>. 
+                               It utilizes modern web technologies to deliver a <strong>fast, secure, and intuitive experience</strong>.</p>
+                        </div>
+                
+                        <!-- Key Features -->
+                        <div class="nazeon-section">
+                            <h3>2. Key Features</h3>
+                            <ul>
+                                <li>⚡ AI-powered real-time analysis</li>
+                                <li>⚡ Fully responsive cyberpunk-themed UI</li>
+                                <li>⚡ Data security with end-to-end encryption</li>
+                                <li>⚡ Interactive chatbot for assistance</li>
+                                <li>⚡ Dynamic dark mode interface</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Technologies Used -->
+                        <div class="nazeon-section">
+                            <h3>3. Technologies Used</h3>
+                            <ul>
+                                <li><strong>Frontend:</strong> React.js, TailwindCSS</li>
+                                <li><strong>Backend:</strong> Node.js, Express.js</li>
+                                <li><strong>Database:</strong> MongoDB</li>
+                                <li><strong>Authentication:</strong> Firebase Auth</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Installation Steps -->
+                        <div class="nazeon-section">
+                            <h3>4. Installation Guide</h3>
+                            <ol>
+                                <li>Clone the repository:  
+                                    <code>Directly download from here only</code>
+                                </li>
+                                <li>Navigate to project:  
+                                    <code>cd nazeon</code>
+                                </li>
+                                <li>Install dependencies:  
+                                    <code>npm install</code>
+                                </li>
+                                <li>Start the server:  
+                                    <code>npm start</code>
+                                </li>
+                                <li>Open:  
+                                    <code>http://localhost:3000</code>
+                                </li>
+                            </ol>
+                        </div>
+                
+                        <!-- How to Use -->
+                        <div class="nazeon-section">
+                            <h3>5. How to Use</h3>
+                            <ul>
+                                <li>🔹 Sign up and create an account.</li>
+                                <li>🔹 Access the AI-powered dashboard.</li>
+                                <li>🔹 Use tools for <strong>[specific feature]</strong>.</li>
+                                <li>🔹 View detailed reports and suggestions.</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Screenshots -->
+                        <div class="nazeon-section">
+                            <h3>6. Screenshots</h3>
+                            <div class="nazeon-gallery">
+                                <img src="screenshot1.png" alt="NAZEON Screenshot 1">
+                                <img src="screenshot2.png" alt="NAZEON Screenshot 2">
+                            </div>
+                        </div>
+                
+                        <!-- Future Enhancements -->
+                        <div class="nazeon-section">
+                            <h3>7. Future Enhancements</h3>
+                            <ul>
+                                <li>🚀 AI-powered predictions & automation</li>
+                                <li>🚀 Voice command integration</li>
+                                <li>🚀 Multi-language support</li>
+                                <li>🚀 NFT-based authentication system</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Contact and Repository -->
+                        <div class="nazeon-section text-center">
+                            <h3>8. GitHub & Contact</h3>
+                            <p>For contributions and updates, visit:</p>
+                            <a href="https://github.com/shreya0517/Nazeon" target="_blank" class="nazeon-github">GitHub Repository</a>
+                        </div>
+                    </div>
+                </section>
+                
+                <style>
+                /* Cyberpunk Theme - Unique Styling */
+                .nazeon-docs {
+                    background: #0f0f0f;
+                    color: #0ff;
+                    font-family: 'Orbitron', sans-serif;
+                    padding: 60px 20px;
+                    text-shadow: 0 0 5px #0ff;
+                    word-spacing: 2px;
+                    letter-spacing: 2px;
+                }
+                .nazeon-container {
+                    max-width: 900px;
+                    margin-left: 16rem;
+                    margin: auto auto;
+                    background: rgba(0, 0, 0, 0.85);
+                    padding: 30px;
+                    border-radius: 12px;
+                    box-shadow: 0 0 15px #0ff;
+                    border: 2px solid #0ff;
+                }
+                .nazeon-header {
+                    text-align: center;
+                    margin-bottom: 40px;
+
+                }
+                .nazeon-title {
+                    font-size: 32px;
+                    font-weight: bold;
+                    color: #0ff;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+                .nazeon-subtitle {
+                    font-size: 16px;
+                    color: #0aa;
+                }
+                
+                /* Sections */
+                .nazeon-section {
+                    margin-bottom: 40px;
+                    letter-spacing: 2px;
+                }
+                h3 {
+                    font-size: 22px;
+                    color: #0ff;
+                    border-bottom: 2px solid #0aa;
+                    padding-bottom: 5px;
+                    letter-spacing: 2px;
+                }
+                p, ul, ol {
+                    font-size: 16px;
+                    color: #ddd;
+                    line-height: 1.6;
+                }
+                ul, ol {
+                    padding-left: 20px;
+                }
+                code {
+                    background: #222;
+                    color: #0ff;
+                    padding: 4px 6px;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    box-shadow: 0 0 5px #0ff;
+                }
+                
+                /* Screenshot Gallery */
+                .nazeon-gallery img {
+                    width: 100%;
+                    max-width: 400px;
+                    margin: 10px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px #0ff;
+                }
+                
+                /* GitHub Link */
+                .nazeon-github {
+                    display: inline-block;
+                    padding: 12px 24px;
+                    background: #0ff;
+                    color: #000;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    box-shadow: 0 0 10px #0ff;
+                    transition: 0.3s;
+                }
+                .nazeon-github:hover {
+                    background: #0aa;
+                    box-shadow: 0 0 15px #0aa;
+                }
+                </style>
+                
+
+                <!-- ==================== End Awards ==================== -->
+
+
+
+                <!-- ==================== Start Blog ==================== -->
+
+                <section class="blog-sa">
+                    <div class="container section-padding bord-thin-top-light">
+                        <div class="sec-head mb-100 cyberpunk-theme">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <h6 class="sub-head neon-text">Terminal Emulator</h6>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h4 class="glitch-text">>_ Displaying 
+                                        <span class="sub-color inline">Results</span> ...
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item md-mb50">
+                                    <div class="img fit-img">
+                                        <img src="https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/resources/screenshots/screenshot-2.png" alt="">
+                                    </div>
+                                    <div class="cont mt-30">
+                                        <h6>
+                                            <a
+                                                href="#">Futuristic Dashboard</a>
+                                        </h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <div class="img fit-img">
+                                        <img src="https://cdn.hackernoon.com/images/ckz-17-f-7-dm-002-y-0-cs-6-edvmazvk.jpg" alt="">
+                                    </div>
+                                    <div class="cont mt-30">
+                                        <h6>
+                                            <a
+                                                href="#">Futuristic Terminal</a>
+                                        </h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item md-mb50">
+                                    <div class="img fit-img">
+                                        <img src="https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/resources/screenshots/screenshot-3.png" alt="">
+                                    </div>
+                                    <div class="cont mt-30">
+                                        <h6>
+                                            <a
+                                                href="#">Cyberpunk Theme</a>
+                                        </h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <div class="img fit-img">
+                                        <img src="https://cdn.hackernoon.com/images/ckz-17-f-7-dm-002-y-0-cs-6-edvmazvk.jpg" alt="">
+                                    </div>
+                                    <div class="cont mt-30">
+                                        <h6>
+                                            <a
+                                                href="#">Cyberpunk Desktop</a>
+                                        </h6>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End Blog ==================== -->
+
+
+
+                <!-- ==================== Start Contact ==================== -->
+
+                <section class="contact-sa section-padding pt-0">
+                    <div class="container">
+                        <div class="box">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="info">
+                                        <div class="sec-head">
+                                            <h4>Success is a team play, right? <span class="sub-color inline">Let’s work
+                                                    together!</span></h4>
+                                        </div>
+                                        <div class="mt-50 md-mb80">
+                                            <h6>+068 5681 96 96</h6>
+                                            <span class="d-block sub-color fz-14 mt-10">Call us for urgent</span>
+                                            <a href="#"
+                                                class="butn butn-md butn-bord butn-rounded mt-50">
+                                                <div class="d-flex align-items-center">
+                                                    <span>Get Direction</span>
+                                                    <span class="icon invert ml-10">
+                                                        <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/arrow-top-right.svg"
+                                                            alt="">
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 offset-lg-1">
+                                    <div class="contact-form">
+                                        <form id="contact-form" method="post"
+                                            action="#">
+
+                                            <div class="messages"></div>
+
+                                            <div class="controls row">
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="form_name">Full Name <span
+                                                                class="star">*</span></label>
+                                                        <input id="form_name" type="text" name="name"
+                                                            placeholder="Your full name" required="required">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="form_email">Email Address <span
+                                                                class="star">*</span></label>
+                                                        <input id="form_email" type="email" name="email"
+                                                            placeholder="Your email address" required="required">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="form_subject">Subject <span
+                                                                class="star">*</span></label>
+                                                        <input id="form_subject" type="text" name="subject"
+                                                            placeholder="subject" required="required">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="form_budget">Your Budget <span
+                                                                class="opt sub-color">(Optional)</span></label>
+                                                        <input id="form_budget" type="text" name="budget"
+                                                            placeholder="A range of budget for project"
+                                                            required="required">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="form_message">Message</label>
+                                                        <textarea id="form_message" name="message"
+                                                            placeholder="Write your message here..." rows="4"
+                                                            required="required"></textarea>
+                                                    </div>
+                                                    <div class="mt-60">
+                                                        <button type="submit"
+                                                            class="butn butn-md butn-bord butn-rounded">
+                                                            <span class="text">Send Your Message</span>
+                                                            <span class="icon invert ml-10">
+                                                                <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/arrow-top-right.svg"
+                                                                    alt="">
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End Contact ==================== -->
+
+
+
+            </main>
+
+
+            <!-- ==================== Start Footer ==================== -->
+
+            <footer class="footer-sa bord-thin-top-light pb-80">
+                <div class="container section-padding">
+                    <div class="sec-head mb-80">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <a href="#" class="logo md-mb50">
+                                    <img src="assets/imgs/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4>We hope to empower user and simplify
+                                    <span class="sub-color inline">their everyday lives.</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-5">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="item">
+                                            <span class="sub-color">location</span>
+                                            <p>OPEN SOURCE</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-end justify-end">
+                                        <div class="item">
+                                            <span class="sub-color">inquiry</span>
+                                            <p>help@nazeon.org</p>
+                                            <p>+0685689696</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offset-lg-5">
+                                <div class="social-icon">
+                                    <a href="#0">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                    <a href="#0">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="#0">
+                                        <i class="fa-brands fa-dribbble"></i>
+                                    </a>
+                                    <a href="#0">
+                                        <i class="fa-brands fa-behance"></i>
+                                    </a>
+                                    <a href="#0">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="copy sub-color md-mb30">
+                                    <p>© 2025 <a href="#0">NAZEON</a>. All Right Reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-end">
+                                <div class="links sub-color d-flex justify-content-between">
+                                    <a href="#" class="active">Home</a>
+                                    <a
+                                        href="#">Studio</a>
+                                    <a
+                                        href="#">News</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- ==================== End Footer ==================== -->
+
+
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="../common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="../common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="../common/js/lib/plugins.js"></script>
+
+    <!-- GSAP -->
+    <script src="../common/js/gsap_lib/gsap.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="../common/js/gsap_lib/SplitText.min.js"></script>
+
+    <!-- common scripts -->
+    <script src="../common/js/common_scripts.js"></script>
+
+    <!-- custom scripts -->
+    <script src="assets/js/scripts.js"></script>
+
+
+</body>
+
+
+</html>
